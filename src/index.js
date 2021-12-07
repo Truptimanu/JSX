@@ -8,3 +8,12 @@
 //Copyright 2019.
 import React from "react";
 import ReactDOM from "react-dom";
+
+const name = "Trupti";
+
+ReactDOM.render(
+  <div>
+    <h1> This is {name}</h1>
+  </div>,
+  document.getElementById("root")
+);
